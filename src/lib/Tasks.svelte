@@ -1,9 +1,7 @@
 <script>
 	import List from './List.svelte';
-	import Form from './Form.svelte';
 </script>
 
-<Form />
 <section>
 	<h3>Tasks</h3>
 	<ul>

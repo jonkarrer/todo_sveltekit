@@ -1,7 +1,7 @@
 <script>
-	import DeleteTodo from './DeleteTodo.svelte';
-	import EditTodo from './EditTodo.svelte';
-	import ToggleTodo from './ToggleTodo.svelte';
+	import DeleteTodo from './Buttons/DeleteTodo.svelte';
+	import EditTodo from './Buttons/EditTodo.svelte';
+	import ToggleTodo from './Buttons/ToggleTodo.svelte';
 
 	export let task = 'Do something';
 </script>

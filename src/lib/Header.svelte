@@ -1,11 +1,11 @@
 <script>
 	import Date from '$lib/Date.svelte';
-	import AddTodo from '$lib/AddTodo.svelte';
+	import CreateTodo from '$lib/Buttons/CreateTodo.svelte';
 </script>
 
 <header>
 	<Date />
-	<AddTodo />
+	<CreateTodo />
 </header>
 
 <style>
