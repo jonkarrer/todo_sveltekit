@@ -1,14 +1,16 @@
 <script>
 	import Header from '$lib/Header.svelte';
+	import Tasks from '$lib/Tasks.svelte';
 </script>
 
 <main>
 	<Header />
+	<Tasks />
 </main>
 
 <style>
-	:global(*) {
-		padding: 0;
-		margin: 0;
+	main {
+		background-color: #272727;
+		height: 100vh;
 	}
 </style>

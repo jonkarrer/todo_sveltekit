@@ -22,3 +22,9 @@
 	{month}
 	{day}
 </h1>
+
+<style>
+	h1 {
+		color: var(--light-shade);
+	}
+</style>
