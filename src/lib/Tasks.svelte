@@ -1,7 +1,9 @@
 <script>
 	import List from './List.svelte';
+	import Form from './Form.svelte';
 </script>
 
+<Form />
 <section>
 	<h3>Tasks</h3>
 	<ul>
@@ -18,12 +20,5 @@
 		margin-left: 24px;
 		margin-top: 24px;
 		color: var(--light-shade);
-	}
-	li {
-		height: 45px;
-		margin: 24px;
-
-		background-color: var(--light);
-		border-radius: 5px;
 	}
 </style>
