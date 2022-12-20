@@ -12,7 +12,8 @@
 
 <style>
 	main {
-		background-color: var(--dark);
 		height: 100vh;
+		max-width: 500px;
+		margin: auto;
 	}
 </style>
