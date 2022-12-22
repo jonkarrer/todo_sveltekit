@@ -39,7 +39,7 @@ npm run preview
 
 ## Report
 
-### Pros
+<strong>Pros</strong>
 
 - The dev experience was superb, as everyone knows by now Svelte alone is a joy to work with. State management built in and works great. No need for a CSS library and all CSS is scoped to the component.
 
@@ -54,7 +54,7 @@ npm run preview
 
 - Virtually dependency free.
 
-### Cons
+<strong>Cons</strong>
 
 - The folder structure is hard to navigate after you get going. Only had one page to manage and a lib, and constantly had to stop and think too often about where something was being done. Could have done better with my abstractions, maybe.
 
