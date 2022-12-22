@@ -13,8 +13,16 @@ export function load({ cookies }: { cookies: any }) {
 }
 
 export const actions = {
-	default: async ({ cookies, request }: { cookies: any; request: any }) => {
+	create: async ({ cookies, request }: { cookies: any; request: any }) => {
 		const data = await request.formData();
 		db.createTodo(cookies.get('userid'), data.get('description'));
+	},
+	edit: async ({ cookies, request }: { cookies: any; request: any }) => {
+		const data = await request.formData();
+		db.editTodo(cookies.get('userid'), data.get('todoid'), data.get('new_description'));
+	},
+	delete: async ({ cookies, request }: { cookies: any; request: any }) => {
+		const data = await request.formData();
+		db.deleteTodo(cookies.get('userid'), data.get('todoid'));
 	}
 };

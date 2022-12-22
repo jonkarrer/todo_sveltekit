@@ -4,14 +4,15 @@
 	import ToggleTodo from './Buttons/ToggleTodo.svelte';
 
 	export let task = 'Do something';
+	export let id = '';
 </script>
 
 <li>
 	{task}
 
 	<span>
-		<DeleteTodo />
-		<EditTodo />
+		<DeleteTodo {id} />
+		<EditTodo {id} />
 		<ToggleTodo />
 	</span>
 </li>

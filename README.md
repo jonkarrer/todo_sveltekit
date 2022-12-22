@@ -2,6 +2,10 @@
 
 A clearly overkill framework for such a simple app, but I wanted to test out SvelteKit and some back end logic with PHP, SQL, and Docker.
 
+## Resources
+
+[Svelte Tutorial](https://learn.svelte.dev/tutorial/welcome-to-svelte)
+
 ## Roadmap
 
 - [x] Scaffold UI

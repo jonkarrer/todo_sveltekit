@@ -2,6 +2,7 @@
 	import { toggleFormComponent, setFormType } from '../../store';
 	import Create from './Create.svelte';
 	import Edit from './Edit.svelte';
+	import Delete from './Delete.svelte';
 	export const title = 'New Task';
 </script>
 
@@ -14,6 +15,9 @@
 	{/if}
 	{#if $toggleFormComponent === 'create'}
 		<Create />
+	{/if}
+	{#if $toggleFormComponent === 'delete'}
+		<Delete />
 	{/if}
 </div>
 

@@ -14,7 +14,7 @@
 		<h3>Tasks</h3>
 		<ul>
 			{#each data.todos as todo (todo.id)}
-				<List task={todo.description} />
+				<List task={todo.description} id={todo.id} />
 			{/each}
 		</ul>
 	</section>
