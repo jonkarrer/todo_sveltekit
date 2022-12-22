@@ -25,13 +25,13 @@ A classic, feature poor, todo app to test out a new framework, SvelteKit. Self h
 
 > You will need node.js installed
 
-### Install deps
+<strong>Install deps</strong>
 
 ```bash
 npm install
 ```
 
-### Run preview
+<strong>Run build && start</strong>
 
 ```bash
 npm run preview
