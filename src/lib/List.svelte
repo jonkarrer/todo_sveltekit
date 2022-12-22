@@ -1,7 +1,6 @@
 <script>
 	import DeleteTodo from './Buttons/DeleteTodo.svelte';
 	import EditTodo from './Buttons/EditTodo.svelte';
-	import ToggleTodo from './Buttons/ToggleTodo.svelte';
 
 	export let task = 'Do something';
 	export let id = '';
@@ -13,7 +12,6 @@
 	<span>
 		<DeleteTodo {id} />
 		<EditTodo {id} />
-		<ToggleTodo />
 	</span>
 </li>
 
@@ -32,6 +30,6 @@
 	span {
 		display: flex;
 		align-items: center;
-		gap: 14px;
+		gap: 18px;
 	}
 </style>

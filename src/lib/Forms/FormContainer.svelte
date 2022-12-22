@@ -3,6 +3,7 @@
 	import Create from './Create.svelte';
 	import Edit from './Edit.svelte';
 	import Delete from './Delete.svelte';
+
 	export const title = 'New Task';
 </script>
 
